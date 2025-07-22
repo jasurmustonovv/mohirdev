@@ -81,6 +81,7 @@ button {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    cursor: pointer;
 }
 
 .logo img {
@@ -301,6 +302,7 @@ nav ul .none {
     gap: 2rem;
     padding-left: 100px;
     margin-top: 70px;
+    cursor: pointer;
 }
 
 .gridbox1 div {
@@ -485,6 +487,7 @@ nav ul .none {
     display: flex;
     flex-direction: column;
     text-align: left;
+    cursor: pointer;
 }
 
 .thoughts__items h4 {
@@ -593,6 +596,7 @@ nav ul .none {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 2.5rem;
+    cursor: pointer;
 }
 
 .gridbox3 div {
@@ -632,6 +636,7 @@ nav ul .none {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 2.5rem;
+    cursor: pointer;
 }
 
 .gridbox4 div {
@@ -737,6 +742,7 @@ nav ul .none {
     border: 1px solid #e1e5e8;
     border-radius: 1rem;
     transition: box-shadow 0.4s ease;
+    cursor: pointer;
 }
 
 .gridbox5 div:hover {
@@ -803,6 +809,7 @@ nav ul .none {
     border: 1px solid #e1e5e8;
     border-radius: 1rem;
     transition: box-shadow 0.4s ease;
+    cursor: pointer;
 }
 
 .gridbox6 div:hover {
@@ -979,6 +986,7 @@ nav ul .none {
     height: 200px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    cursor: pointer;
 }
 
 /*blackbox3*/
@@ -1000,7 +1008,6 @@ nav ul .none {
     height: 350px;
     border-radius: 18px;
     background-color: #263039;
-    
 }
 
 .blackboxx h1 {
@@ -1042,6 +1049,7 @@ label {
     display: block;
     margin-bottom: 3px;
 }
+
 .inputs input {
     width: 330px;
     height: 50px;
@@ -1054,6 +1062,7 @@ label {
     border: 1px solid #414b51;
     margin-bottom: 20px;
 }
+
 .inputs button {
     width: 330px;
     height: 50px;
@@ -1081,15 +1090,18 @@ label {
     background-color: #555e67;
     color: white;
 }
-.blackbox3 hr{
+
+.blackbox3 hr {
     border: 1px solid #2f3438;
     margin-top: 5rem;
 }
-.over{
+
+.over {
     margin-top: 2rem;
     font-size: 1.6rem;
     color: rgb(168, 165, 165);
 }
+
 @media only screen and (max-width: 800px) {
     nav ul li {
         display: none;
