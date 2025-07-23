@@ -51,7 +51,9 @@ video {
 button {
     cursor: pointer;
 }
-
+.cursor-pointer{
+    cursor: pointer;
+}
 /*line-height*/
 .line-height {
     line-height: 25px;
@@ -266,6 +268,7 @@ nav ul .none {
     padding-left: 100px;
     padding-top: 5rem;
 }
+
 /*imkoniyatlar*/
 
 .imkoniyatlar2 {
@@ -989,7 +992,7 @@ nav ul .none {
 .blackbox3 {
     width: 100%;
     height: 720px;
-    background-color: #091621;
+    background-color: #17222B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1069,13 +1072,18 @@ label {
     color: white;
     font-size: 1.7rem;
     font-weight: bold;
+    transition: all .4s ease;
 }
-
+.inputs button:hover{
+    background-color: #2071c2;
+}
 .box3 p {
     color: white;
+    opacity: .8;
     font-size: small;
     margin-left: 20px;
     margin-top: 1rem;
+    line-height: 2rem;
 }
 
 .box3 a {
@@ -1088,16 +1096,148 @@ label {
 }
 
 .blackbox3 hr {
-    border: 1px solid #2f3438;
+    border: 1px solid #393f44;
     margin-top: 5rem;
 }
 
-.over {
+/*footer*/
+footer {
+    width: 100%;
+    height: 470px;
+    background-color: #17222B;
+}
+
+.logo2 {
+    margin-left: 120px;
+    padding-top: 3rem;
+}
+
+.logo2 h2 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.logo2 h1 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 3rem;
+}
+
+.logo2 p {
+    line-height: 20px;
+    font-size: 1.5rem;
     margin-top: 2rem;
+    opacity: .7;
+    transition: all .3s ease;
+}
+
+footer nav {
+    display: flex;
+    height: 300px;
+}
+
+footer nav ul {
+    display: block;
+    padding-left: 120px;
+    padding-top: 3rem;
+}
+
+footer nav ul li {
+    color: white;
+    line-height: 3rem;
+    opacity: .8;
+}
+
+.font-weight {
+    font-weight: 600;
+    opacity: 1;
+}
+
+.div1{
+    width: 30%;
+}
+.div2{
+    width: 43%;
+    display: flex;
+}
+.kompaniya{
+    margin-left: -4rem;
+}
+.malumot{
+    margin-left: -6.5rem;
+}
+.flex_h1{
+    display: flex;
+    align-items:center;
+}
+.hoverli__p:hover{
+    opacity: 1;
+}
+.opacity{
+    opacity: .8;
+}
+.hujjatlar{
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.IT-park{
+    margin-top: -6rem;
+}
+/*tulovlar*/
+.tulovlar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 400px;
+    height: 45px;
+    margin-left: 1050px;
+    gap: 2rem;
+}
+.tulovlar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263039;
+}
+footer hr{
+    width: 85%;
+    margin-left: 120px;
+    margin-top: 3rem;
+    border: 1px solid #393f44;
+}
+.overbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 120px;
+    margin-top: 3rem;
+}
+.overbox div{
+    display: grid;
+    width: 15%;
+    grid-template-columns: repeat(5 ,1fr);
+}
+.overbox .hoverli__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 1rem;
+}
+.overbox .hoverli__box:hover{
+    background: #263039;
+}
+.over {
     font-size: 1.6rem;
     color: rgb(168, 165, 165);
 }
-
+.overbox i{
+    color: #A2AAB0;
+    font-size: 22px;
+}
 @media only screen and (max-width: 800px) {
 
     nav ul li {
@@ -1117,7 +1257,7 @@ label {
         font-size: 2.2rem;
     }
 
-    .bluebox{
+    .bluebox {
         display: flex;
         justify-content: center;
     }
@@ -1138,4 +1278,3 @@ label {
         margin-left: 2rem;
     }
 }
-
