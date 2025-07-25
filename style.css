@@ -260,6 +260,9 @@ nav ul .none {
     margin-top: -1.8rem;
 }
 
+
+
+/*imkoniyatlar*/
 .flexbox2 {
     display: flex;
     align-items: center;
@@ -269,9 +272,6 @@ nav ul .none {
     padding-left: 100px;
     padding-top: 5rem;
 }
-
-/*imkoniyatlar*/
-
 .imkoniyatlar2 {
     display: flex;
     align-items: center;
@@ -1293,6 +1293,38 @@ footer hr {
         border-radius: .9rem;
         margin-top: 3rem;
     }
+    /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 91%;
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.8rem;
+    line-height: 38px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.8rem;
+    padding-bottom: 0.4rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.8rem;
+    padding-top: 0.5rem;
+}
+
+/*imkoniyatlar*/
 }
 
 @media screen and (max-width:1330px) {
@@ -1342,6 +1374,38 @@ footer hr {
         margin-top: 40rem;
         border-radius: 70%;
     }
+        /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.7rem;
+    line-height: 38px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.7rem;
+    padding-bottom: 0.4rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.7rem;
+    padding-top: 0.5rem;
+}
+
+/*imkoniyatlar*/
 }
 
 @media screen and (max-width:1250px) {
@@ -1391,6 +1455,36 @@ footer hr {
         margin-top: 37rem;
         border-radius: 70%;
     }
+            /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.5rem;
+    line-height: 38px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+}
 }
 
 @media screen and (max-width:1050px) {
@@ -1461,6 +1555,36 @@ footer hr {
         border-radius: .7rem;
         margin-top: 1.4rem;
     }
+                /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.3rem;
+    line-height: 32px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.2rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.3rem;
+    padding-top: 0.4rem;
+}
 }
 
 @media only screen and (max-width: 850px) {
@@ -1521,6 +1645,36 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 13.5rem;
     }
+                    /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.2rem;
+    line-height: 30px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.1rem;
+    padding-top: 0.4rem;
+}
 }
 @media only screen and (max-width: 840px) {
     .container {
@@ -1579,6 +1733,36 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 13.5rem;
     }
+                        /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.2rem;
+    line-height: 30px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.1rem;
+    padding-top: 0.4rem;
+}
 }
 @media only screen and (max-width: 800px) {
     .container {
@@ -1617,6 +1801,36 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 13.5rem;
     }
+                            /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.2rem;
+    line-height: 30px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.1rem;
+    padding-top: 0.4rem;
+}
 }
 @media only screen and (max-width: 750px) {
     .container {
@@ -1655,6 +1869,36 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 12rem;
     }
+                                /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    padding-left: 25px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.2rem;
+    line-height: 30px;
+}
+
+.oquvchilar h1 {
+    font-size: 4.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.1rem;
+    padding-top: 0.4rem;
+}   
 }
 @media only screen and (max-width: 700px) {
     .container {
@@ -1693,6 +1937,36 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 12rem;
     }
+                                    /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 105%;
+    height: 200px;
+    padding-left: 1px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.1rem;
+    line-height: 30px;
+}
+
+.oquvchilar h1 {
+    font-size: 3.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+}   
 }
 @media only screen and (max-width: 650px) {
     .container {
@@ -1731,6 +2005,36 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 12rem;
     }
+                                        /*imkoniyatlar*/
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 113%;
+    height: 200px;
+    padding-left: 1px;
+    padding-top: 5rem;
+}
+.imkoniyatlar2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imkoniyatlar h1 {
+    font-size: 2.1rem;
+    line-height: 30px;
+}
+
+.oquvchilar h1 {
+    font-size: 3.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.oquvchilar h3 {
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+}   
 }
 @media only screen and (max-width: 600px) {
     .container {
