@@ -61,6 +61,11 @@ button {
     line-height: 25px;
 }
 
+.clearfix {
+    clear: both;
+    position: relative;
+}
+
 /*core styles*/
 /*fixedbox*/
 .fixedbox {
@@ -951,10 +956,15 @@ nav ul .none {
     filter: drop-shadow(1px 1px 10px rgb(63, 156, 251));
 }
 
-.images {
-    float: left;
+.images img {
+    width: 57.6vh;
     margin-left: 209px;
     margin-top: 107px;
+    float: left;
+}
+
+.images {
+    position: relative;
 }
 
 /*ustozlar*/
@@ -1406,7 +1416,7 @@ footer hr {
         margin-top: 2.5rem;
         font-size: 1.6rem;
     }
-    
+
     /*imkoniyatlar*/
 }
 
@@ -1457,7 +1467,7 @@ footer hr {
         margin-top: 40rem;
         border-radius: 70%;
     }
-    
+
     /*gridbox*/
     .gridbox1 {
         width: 95%;
@@ -1584,8 +1594,9 @@ footer hr {
         font-size: 1.4rem;
         padding-top: 0.5rem;
     }
-     /*gridbox*/
-     .gridbox1 {
+
+    /*gridbox*/
+    .gridbox1 {
         width: 100%;
         height: 430px;
         display: grid;
@@ -1595,73 +1606,74 @@ footer hr {
         margin-top: 70px;
         cursor: pointer;
     }
-        .clock-img {
-            width: 12rem;
-        }
-    
-        .gridbox_kurslar .img {
-            width: 18rem;
-            padding-left: 1.5rem;
-            padding-top: 5rem;
-        }
-    
-        .gridbox_kurslar h2 {
-            padding-left: 4rem;
-            font-size: 2.4rem;
-            color: white;
-            padding-top: 3rem;
-        }
-    
-        .gridbox_kurslar h3 {
-            padding-left: 4rem;
-            font-size: 1.5rem;
-            line-height: 2.5rem;
-            padding-top: 2rem;
-        }
-    
-        .gridbox_kurslar__button {
-            width: 85%;
-            height: 5rem;
-            margin-left: 4rem;
-            margin-top: 2.5rem;
-            border: 1px solid white;
-            background-color: #349cfb;
-            color: white;
-            border-radius: 0.4rem;
-            font-size: 1.7rem;
-            transition: all 0.4s ease;
-        }
-    
-        .clock-img {
-            width: 12rem;
-        }
-    
-        .gridbox_kasblar .img {
-            width: 12rem;
-            padding-left: 1.5rem;
-            padding-top: 5rem;
-        }
-    
-        .gridbox_kasblar h2 {
-            padding-left: 4rem;
-            font-size: 2.4rem;
-            padding-top: 3rem;
-        }
-    
-        .gridbox_kasblar h3 {
-            padding-left: 4rem;
-            font-size: 1.7rem;
-            line-height: 2.5rem;
-            padding-top: 2rem;
-        }
-    
-        .gridbox_kasblar__button {
-            width: 85%;
-            height: 5rem;
-            margin-left: 4rem;
-            margin-top: 2.5rem;
-            font-size: 1.6rem;
-        }
+
+    .clock-img {
+        width: 12rem;
+    }
+
+    .gridbox_kurslar .img {
+        width: 18rem;
+        padding-left: 1.5rem;
+        padding-top: 5rem;
+    }
+
+    .gridbox_kurslar h2 {
+        padding-left: 4rem;
+        font-size: 2.4rem;
+        color: white;
+        padding-top: 3rem;
+    }
+
+    .gridbox_kurslar h3 {
+        padding-left: 4rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    .gridbox_kurslar__button {
+        width: 85%;
+        height: 5rem;
+        margin-left: 4rem;
+        margin-top: 2.5rem;
+        border: 1px solid white;
+        background-color: #349cfb;
+        color: white;
+        border-radius: 0.4rem;
+        font-size: 1.7rem;
+        transition: all 0.4s ease;
+    }
+
+    .clock-img {
+        width: 12rem;
+    }
+
+    .gridbox_kasblar .img {
+        width: 12rem;
+        padding-left: 1.5rem;
+        padding-top: 5rem;
+    }
+
+    .gridbox_kasblar h2 {
+        padding-left: 4rem;
+        font-size: 2.4rem;
+        padding-top: 3rem;
+    }
+
+    .gridbox_kasblar h3 {
+        padding-left: 4rem;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    .gridbox_kasblar__button {
+        width: 85%;
+        height: 5rem;
+        margin-left: 4rem;
+        margin-top: 2.5rem;
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width:1050px) {
@@ -1764,6 +1776,7 @@ footer hr {
         font-size: 1.3rem;
         padding-top: 0.4rem;
     }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -1949,6 +1962,76 @@ footer hr {
         font-size: 1.1rem;
         padding-top: 0.4rem;
     }
+
+    /*gridbox*/
+    .gridbox1 {
+        width: 100%;
+        height: 430px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 2rem;
+        padding-left: 20px;
+        margin-top: 70px;
+    }
+
+    .gridbox_kurslar .img {
+        width: 15rem;
+        padding-left: 1.4rem;
+        padding-top: 4rem;
+    }
+
+    .gridbox_kurslar h2 {
+        padding-left: 3rem;
+        font-size: 2.3rem;
+        padding-top: 2rem;
+    }
+
+    .gridbox_kurslar h3 {
+        padding-left: 3rem;
+        font-size: 1.7rem;
+        line-height: 2.3rem;
+        padding-top: 2rem;
+        width: 400px;
+    }
+
+    .gridbox_kurslar__button {
+        width: 85%;
+        height: 5rem;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        border: 1px solid white;
+        background-color: #349cfb;
+        color: white;
+        border-radius: 0.4rem;
+        font-size: 1.7rem;
+    }
+
+    .gridbox_kasblar .img {
+        width: 10rem;
+        padding-left: 1.5rem;
+        padding-top: 5rem;
+    }
+
+    .gridbox_kasblar h2 {
+        padding-left: 3rem;
+        font-size: 2.3rem;
+        padding-top: 3rem;
+    }
+
+    .gridbox_kasblar h3 {
+        padding-left: 3rem;
+        font-size: 1.7rem;
+        line-height: 2.4rem;
+        padding-top: 2rem;
+    }
+
+    .gridbox_kasblar__button {
+        width: 85%;
+        height: 5rem;
+        margin-left: 3rem;
+        margin-top: 3.1rem;
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1991,9 +2074,6 @@ footer hr {
 
     /*imkoniyatlar*/
     .flexbox2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         width: 98%;
         height: 200px;
         padding-left: 30px;
@@ -2020,6 +2100,11 @@ footer hr {
         font-size: 1.1rem;
         padding-top: 0.4rem;
     }
+
+    .gridbox1 {
+        padding-left: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -2091,6 +2176,165 @@ footer hr {
         font-size: 1.1rem;
         padding-top: 0.4rem;
     }
+
+    /*gridbox*/
+    .gridbox1 {
+        width: 100%;
+        height: 700px;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 2rem;
+        padding-left: 10px;
+        margin-top: 70px;
+    }
+
+    .gridbox_kurslar .img {
+        width: 12rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kurslar h2 {
+        padding-left: 5rem;
+        font-size: 2.3rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kurslar h3 {
+        padding-left: 5rem;
+        font-size: 1.7rem;
+        line-height: 2.3rem;
+        padding-top: 2rem;
+        width: 400px;
+    }
+
+    .gridbox_kurslar__button {
+        width: 85%;
+        height: 5rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        border: 1px solid white;
+        background-color: #349cfb;
+        color: white;
+        border-radius: 0.4rem;
+        font-size: 1.7rem;
+    }
+
+    .gridbox_kasblar .img {
+        width: 10rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kasblar h2 {
+        padding-left: 2.2em;
+        font-size: 2.3rem;
+        padding-top: 3rem;
+    }
+
+    .gridbox_kasblar h3 {
+        padding-left: 5rem;
+        font-size: 1.7rem;
+        line-height: 2.4rem;
+        padding-top: 2rem;
+    }
+
+    .gridbox_kasblar__button {
+        width: 85%;
+        height: 5rem;
+        margin-left: 5rem;
+        margin-top: 3.1rem;
+        font-size: 1.5rem;
+    }
+
+    /*blackbox1*/
+    .blackbox1 {
+        width: 100%;
+        margin-left: 9px;
+        height: 350px;
+    }
+
+    /*flexbox*/
+    .flexbox {
+        padding: 5.5rem;
+    }
+
+    .flexbox__items {
+        padding-top: 3.5rem;
+    }
+
+    .flexbox__items h3 {
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .flexbox__items h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        line-height: 4rem;
+    }
+
+    .flexbox__items button {
+        padding: 15px 35px;
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+
+    .flexbox__items button:hover {
+        filter: drop-shadow(1px 1px 8px rgb(63, 156, 251));
+    }
+
+    .web_page {
+        margin-left: 250px;
+        padding-left: 20px;
+    }
+
+    /*thoughts*/
+    .thoughts {
+        width: 100%;
+        padding-top: 5rem;
+        font-size: 1rem;
+        padding-left: 3rem;
+    }
+
+    .thoughts__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 10px;
+        gap: 1.5rem;
+    }
+
+    .thoughts__items {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .thoughts__items h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    .thoughts__items p {
+        font-size: 13px;
+        opacity: 0.7;
+        line-height: 15px;
+    }
+
+    .btn_04 {
+        margin-top: -2rem;
+        padding: 15px 35px;
+    }
+
+    .btn_06 {
+        padding: 15px 30px;
+        font-size: 1.5rem;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -2272,6 +2516,10 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 11rem;
     }
+
+    .gridbox_kurslar .gridbox_kurslar__button {
+        margin-left: 3.4rem;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -2315,8 +2563,8 @@ footer hr {
 
 @media only screen and (max-width: 500px) {
     .container {
-        width: 605px;
-        margin-left: -6rem;
+        width: 505px;
+        margin-left: -1.5rem;
     }
 
     .bluediv {
@@ -2324,7 +2572,7 @@ footer hr {
     }
 
     .navbar {
-        padding: 0 7.5rem;
+        padding: 0 2.1rem;
     }
 
     nav ul .none {
@@ -2350,6 +2598,357 @@ footer hr {
         margin-top: 1.5rem;
         margin-left: 9.2rem;
     }
+
+    /*blackbox2*/
+    .blackbox2 {
+        width: 100%;
+        height: 250rem;
+    }
+
+    .text {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+        padding-left: 100px;
+    }
+
+    .blackbox2 .heading {
+        padding-top: 10rem;
+        font-size: 4.5rem;
+        padding-left: 100px;
+    }
+
+    /*gridbox2*/
+    .gridbox2 {
+        width: 88%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        margin-left: 100px;
+        margin-top: 50px;
+        gap: 2rem;
+    }
+
+    .gridbox2 button:not(.btn_05) {
+        padding: 13px 15px;
+        border: 1px solid #3f9cfb;
+        background-color: #091621;
+        border-radius: 0.5rem;
+        color: #349cfb;
+        font-size: 1.5rem;
+        transition: all 0.4s ease;
+    }
+
+    .gridbox2 button:hover:not(.btn_05) {
+        background-color: #349cfb;
+        color: white;
+    }
+
+    .gridbox2 button:first-child {
+        background-color: #349cfb;
+        border-radius: 0.5rem;
+        color: white;
+        width: 200px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        border: none;
+        transition: all 0.4s ease;
+    }
+
+    .gridbox2 button:first-child:hover {
+        background-color: #206fb9;
+    }
+
+    /*gridbox3*/
+    .gridbox3 {
+        width: 88%;
+        height: 400px;
+        margin-left: 10px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 2.5rem;
+        cursor: pointer;
+    }
+
+    .gridbox3 div {
+        border: 2px solid #0b2c48;
+        border-radius: 2rem;
+        background-color: #081b2e;
+    }
+
+    .gridbox3 div h4 {
+        padding-left: 3.2rem;
+        padding-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        opacity: 0.8;
+    }
+
+    .gridbox3 div h2 {
+        padding-left: 3.2rem;
+        padding-top: 2rem;
+        font-weight: 600;
+        font-size: 2.3rem;
+    }
+
+    .gridbox3 div h3 {
+        padding-left: 3.2rem;
+        padding-top: 2rem;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+    /*gridbox4*/
+    .gridbox4 {
+        width: 88%;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 2.5rem;
+        cursor: pointer;
+    }
+
+    .gridbox4 div {
+        border: 2px solid #0b2c48;
+        border-radius: 2rem;
+        background-color: #081b2e;
+    }
+
+    .gridbox4 div h4 {
+        padding-left: 3.2rem;
+        padding-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        opacity: 0.8;
+    }
+
+    .gridbox4 div h2 {
+        padding-left: 3.2rem;
+        padding-top: 2rem;
+        font-weight: 600;
+        font-size: 2.3rem;
+    }
+
+    .gridbox4 div h3 {
+        padding-left: 3.2rem;
+        padding-top: 2rem;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+    .btnn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        margin-top: 100rem;
+    }
+
+    .btn_06 {
+        padding: 15px 37px;
+        border-radius: 1rem;
+        border: none;
+        background-color: #349cfb;
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        box-shadow: 0 0 20px 0 #349cfb;
+        transition: all 0.3s ease;
+    }
+
+    .btn_06:hover {
+        background-color: #206fb9;
+    }
+
+    .whitebox {
+        width: 88%;
+        height: 100rem;
+        margin-left: 100px;
+        margin-top: 100rem;
+    }
+
+    /*thoughts*/
+    .thoughts img {
+        width: 350px;
+    }
+
+    .thoughts h1 {
+        text-align: center;
+    }
+
+    .thoughts__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 10px;
+        gap: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    .btn_04 {
+        margin-top: -2rem;
+        padding: 13px 26px;
+    }
+
+    /*imkoniyatlar*/
+    .flexbox2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 400px;
+        padding-left: 20px;
+        padding-top: 5rem;
+    }
+    
+    .imkoniyatlar2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imkoniyatlar h1 {
+        font-size: 2.1rem;
+        line-height: 30px;
+        margin-bottom: 30rem;
+        text-align: center;
+        width: 450px;
+    }
+
+    .oquvchilar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5rem;
+        margin-left: -500px;
+        width: 500px;
+    }
+
+    .oquvchilar h1 {
+        font-size: 3.1rem;
+        padding-bottom: 0.3rem;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        gap: 6rem;
+    }
+
+    .oquvchilar h3 {
+        font-size: 1.2rem;
+        padding-top: 0.4rem;
+        display: flex;
+        gap: 6rem;
+    }
+
+    .gridbox3 {
+        width: 88%;
+        height: 800px;
+        margin-left: 100px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+        cursor: pointer;
+    }
+
+    .blackbox2 {
+        width: 100%;
+        height: 300rem;
+        background-color: #091621;
+    }
+    .blackbox1{
+        margin-left: 70px;
+        width: 78%;
+        margin-top: 5rem;
+    }
+    .web_page{
+        display: none;
+    }
+    .flexbox__items h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-right: 50px;
+    }
+    .flexbox__items h1 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 3.2rem;
+        margin-right: 50px;
+    }
+    .flexbox__items button {
+        padding: 12px 15px;
+        margin-left: 50px;
+        margin-top: 1.5rem;
+    }
+      /*gridbox*/
+      .gridbox1 {
+        width: 80%;
+        height: 650px;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 2rem;
+        padding-left: 70px;
+        margin-top: 70px;
+    }
+
+    .gridbox_kurslar .img {
+        width: 10rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kurslar h2 {
+        padding-left: 3.6rem;
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kurslar h3 {
+        padding-left: 3.6rem;
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+        padding-top: 2rem;
+        width: 355px;
+    }
+
+    .gridbox_kurslar__button {
+        width: 79%;
+        height: 4rem;
+        margin-top: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .gridbox_kasblar .img {
+        width: 10rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kasblar h2 {
+        padding-left: 3.6rem;
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .gridbox_kasblar h3 {
+        padding-left: 3.6rem;
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+        padding-top: 2rem;
+        width: 355px;
+    }
+
+    .gridbox_kasblar__button {
+        width: 79%;
+        height: 4rem;
+        margin-top: 3rem;
+        font-size: 1.4rem;
+        margin-left: 3.6rem;
+    }
+  
 }
 
 @media only screen and (max-width: 392px) {
