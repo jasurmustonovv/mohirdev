@@ -2618,9 +2618,12 @@ footer hr {
         display: block;
         margin-top: 5rem;
         width: 150px;
-        height: 150px;
+        height: 146px;
         position: relative;
-        left: 40px;
+        left: -15px;
+    }
+    .bluediv_video video {
+        display: block;
     }
 
     .bluediv_img {
@@ -2644,7 +2647,7 @@ footer hr {
         border-radius: .8rem;
         margin-top: 1.5rem;
         position: relative;
-        left: -1rem;
+        left: -1.7rem;
     }
 
     /* Success */
