@@ -2603,14 +2603,15 @@ footer hr {
     /* Success */
     .bluediv {
         width: 100%;
-        height: 500px;
+        height: 570px;
         display: block;
+        margin-top: 1rem;
     }
 
     .bluediv_items h3 {
         font-size: 1.1rem;
-        margin-left: -35px;
-        margin-top: -5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
     }
 
     .bluediv_video {
@@ -2619,7 +2620,7 @@ footer hr {
         width: 150px;
         height: 150px;
         position: relative;
-        left: 100px;
+        left: 40px;
     }
 
     .bluediv_img {
@@ -2633,7 +2634,7 @@ footer hr {
 
     .bluediv_items h1 {
         font-size: 3.3rem;
-        margin-left: -35px;
+        margin-right: 4.05rem;
     }
 
     .bluediv_items button {
