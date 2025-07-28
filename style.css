@@ -2862,12 +2862,11 @@ footer hr {
     }
     .imkoniyatlar2{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 10rem;
+        grid-template-columns: repeat(2,1fr);
+        gap: 4rem;
     }
     .oquvchilar {
-        
-        margin-left: -500px;
+        margin-left: -400px;
         width: 500px;
     }
 
