@@ -2829,13 +2829,12 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
         padding-top: 10px;
         gap: 1.5rem;
-        margin-left: 2rem;
     }
 
     .btn_04 {
         margin-top: -2rem;
         padding: 13px 26px;
-        margin-left: -3rem;
+        margin-right: 9rem;
     }
 
     /*imkoniyatlar*/
