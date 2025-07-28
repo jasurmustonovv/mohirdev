@@ -2856,7 +2856,7 @@ footer hr {
     .imkoniyatlar h1 {
         font-size: 2.1rem;
         line-height: 30px;
-        margin-bottom: 30rem;
+        margin-bottom: 34rem;
         text-align: left;
         width:400px;
     }
@@ -2895,7 +2895,7 @@ footer hr {
     }
 
     .blackbox2 {
-        width: 100%;
+        width: 340px;
         height: 300rem;
         background-color: #091621;
     }
@@ -2923,7 +2923,7 @@ footer hr {
         margin-left: 6.4rem;
         margin-top: 1.5rem;
     }
-
+    /* Blackbox1 */
     .blackbox1 {
         margin-left: 15px;
         width: 78%;
