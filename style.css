@@ -1009,16 +1009,15 @@ nav ul .none {
 
 /*blackbox3*/
 .blackbox3 {
-    width: 100%;
+    width: 101.333333333%;
     height: 720px;
     background-color: #17222B;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2050px;
-    width: 100%;
     max-width: 1536px;
-    padding: 0 1rem;
+    margin-left: -1rem;
 }
 
 .blackboxx {
@@ -1123,9 +1122,10 @@ label {
 
 /*footer*/
 footer {
-    width: 100%;
+    width: 101.3333%;
     height: 470px;
     background-color: #17222B;
+    margin-left: -1rem;
 }
 
 .logo2 {
@@ -2566,11 +2566,6 @@ footer hr {
         width: 505px;
         margin-left: -1.5rem;
     }
-
-    .bluediv {
-        width: 45rem;
-    }
-
     .navbar {
         padding: 0 2.1rem;
     }
@@ -2578,17 +2573,42 @@ footer hr {
     nav ul .none {
         display: block;
         font-size: 1.6rem;
+    }
 
+    /* Success */
+    .bluediv {
+        width: 100%;
+        height: 500px;
+        display: block;
     }
 
     .bluediv_items h3 {
         font-size: 1.1rem;
-        text-align: center;
+        margin-left: -35px;
+        margin-top: -5rem;
+    }
+
+    .bluediv_video {
+        display: block;
+        margin-top: 5rem;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 100px;
+    }
+
+    .bluediv_img {
+        display: block;
+        width: 140px;
+        height: 100px;
+        position: relative;
+        top: -130px;
+        left: 25px;
     }
 
     .bluediv_items h1 {
         font-size: 3.3rem;
-        text-align: center;
+        margin-left: -35px;
     }
 
     .bluediv_items button {
@@ -2596,28 +2616,27 @@ footer hr {
         font-size: .8rem;
         border-radius: .8rem;
         margin-top: 1.5rem;
-        margin-left: 9.2rem;
+        position: relative;
+        left: 3.5rem;
     }
+
+    /* Success */
 
     /*blackbox2*/
     .blackbox2 {
         width: 100%;
         height: 250rem;
     }
-
+    
     .text {
-        font-size: 1.7rem;
-        line-height: 2.5rem;
+        font-size: 1.3rem;
+        line-height: 1.5;
         margin-top: 2rem;
         opacity: 0.7;
         padding-left: 100px;
     }
 
-    .blackbox2 .heading {
-        padding-top: 10rem;
-        font-size: 4.5rem;
-        padding-left: 100px;
-    }
+
 
     /*gridbox2*/
     .gridbox2 {
@@ -2773,7 +2792,7 @@ footer hr {
 
     /*thoughts*/
     .thoughts img {
-        width: 350px;
+        width: 340px;
     }
 
     .thoughts h1 {
@@ -2785,12 +2804,13 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
         padding-top: 10px;
         gap: 1.5rem;
-        margin-left: 4rem;
+        margin-left: 3rem;
     }
 
     .btn_04 {
         margin-top: -2rem;
         padding: 13px 26px;
+        margin-left: -1rem;
     }
 
     /*imkoniyatlar*/
@@ -2803,7 +2823,7 @@ footer hr {
         padding-left: 20px;
         padding-top: 5rem;
     }
-    
+
     .imkoniyatlar2 {
         display: flex;
         align-items: center;
@@ -2859,38 +2879,46 @@ footer hr {
         height: 300rem;
         background-color: #091621;
     }
-    .blackbox1{
-        margin-left: 70px;
-        width: 78%;
-        margin-top: 5rem;
-    }
-    .web_page{
+
+    /* Success */
+    .web_page {
         display: none;
     }
+
     .flexbox__items h3 {
         font-size: 1.5rem;
         text-align: center;
         margin-right: 50px;
     }
+
     .flexbox__items h1 {
         font-size: 3rem;
         text-align: center;
         line-height: 3.2rem;
         margin-right: 50px;
     }
+
     .flexbox__items button {
         padding: 12px 15px;
-        margin-left: 50px;
+        margin-left: 5rem;
         margin-top: 1.5rem;
     }
-      /*gridbox*/
-      .gridbox1 {
-        width: 80%;
+
+    .blackbox1 {
+        margin-left: 55px;
+        width: 78%;
+        margin-top: 5rem;
+    }
+
+    /* Success */
+    /*gridbox*/
+    .gridbox1 {
+        width: 70%;
         height: 650px;
         display: grid;
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
-        padding-left: 70px;
+        padding-left: 58px;
         margin-top: 70px;
     }
 
@@ -2911,7 +2939,7 @@ footer hr {
         font-size: 1.4rem;
         line-height: 2.3rem;
         padding-top: 2rem;
-        width: 355px;
+        width: 300px;
     }
 
     .gridbox_kurslar__button {
@@ -2938,7 +2966,7 @@ footer hr {
         font-size: 1.4rem;
         line-height: 2.3rem;
         padding-top: 2rem;
-        width: 355px;
+        width: 342px;
     }
 
     .gridbox_kasblar__button {
@@ -2948,7 +2976,13 @@ footer hr {
         font-size: 1.4rem;
         margin-left: 3.6rem;
     }
-  
+
+    /* Success */
+    .blackbox2 .heading {
+        padding-top: 10rem;
+        font-size: 4.5rem;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 392px) {
@@ -2961,12 +2995,7 @@ footer hr {
         padding: 0 7.5rem;
     }
 
-    .bluediv_items h3 {
-        font-size: 1.1rem;
-        text-align: center;
-    }
-
     .bluediv_items button {
-        margin-left: 9.5rem;
+        margin-left: 6.5rem;
     }
 }
