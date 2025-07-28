@@ -2853,25 +2853,20 @@ footer hr {
         padding-top: 5rem;
     }
 
-    .imkoniyatlar2 {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
-
     .imkoniyatlar h1 {
         font-size: 2.1rem;
         line-height: 30px;
         margin-bottom: 30rem;
-        text-align: center;
-        width: 450px;
+        text-align: left;
+        width:400px;
     }
-
+    .imkoniyatlar2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10rem;
+    }
     .oquvchilar {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 5rem;
+        
         margin-left: -500px;
         width: 500px;
     }
@@ -2880,15 +2875,12 @@ footer hr {
         font-size: 3.1rem;
         padding-bottom: 0.3rem;
         margin-top: 10px;
-        display: flex;
-        justify-content: space-around;
         gap: 6rem;
     }
 
     .oquvchilar h3 {
         font-size: 1.2rem;
         padding-top: 0.4rem;
-        display: flex;
         gap: 6rem;
     }
 
