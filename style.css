@@ -906,39 +906,57 @@ nav ul .none {
     color: white;
 }
 
+/* Asosiy fon qismi */
 .soha-topish {
     width: 100%;
     height: 440px;
     background-color: #3f9cfb;
-    margin-top: 130px;
     border-radius: 2rem;
+    margin-top: 5rem;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+}
+
+/* Ichki flex konteyner */
+.soha-container {
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.soha-topishh {
-    max-width: 50%;
-    padding-left: 5rem;
-    margin-top: -4.7rem;
-    float: left;
+/* Matn qismi */
+.soha-left {
+    flex: 1 1 600px;
+    color: #fff;
 }
 
-.soha-topishh h3 {
-    font-size: 2rem;
-    font-weight: 300;
-    padding-left: 4rem;
-    padding-top: 1.5rem;
-}
-
-.soha-topishh h1 {
+.soha-left h1 {
     font-size: 4.3rem;
-    width: 600px;
-    line-height: 5.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-left: 76px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    display: block;
 }
 
-.soha-topishh button {
-    padding: 18px 36px;
-    margin-top: 3rem;
+.soha-left h3 {
+    padding-left: 8rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.soha-left button {
+    padding: 16px 32px;
+    margin-top: 1rem;
     border-radius: 1rem;
     font-weight: 600;
     font-size: medium;
@@ -947,24 +965,30 @@ nav ul .none {
     border: none;
     transition: all 0.5s ease;
     transition-delay: 0.1s;
-    margin-left: 4rem;
+    margin-left: 7.5rem;
 }
 
-.soha-topishh button:hover {
+.soha-left button:hover {
     transform: scale(1.05);
     background-color: #e1e5e8;
     filter: drop-shadow(1px 1px 10px rgb(63, 156, 251));
 }
 
-.images img {
-    width: 57.6vh;
-    margin-left: 209px;
-    margin-top: 107px;
-    float: left;
+/* Rasm qismi */
+.soha-right {
+    flex: 1 1 300px;
+    max-width: 400px;
+    text-align: center;
 }
 
-.images {
-    position: relative;
+.soha-right img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 114px;
+    margin-left: 20px;
+    display: block;
 }
 
 /*ustozlar*/
@@ -2566,6 +2590,7 @@ footer hr {
         width: 505px;
         margin-left: -1.5rem;
     }
+
     .navbar {
         padding: 0 2.1rem;
     }
@@ -2627,7 +2652,7 @@ footer hr {
         width: 100%;
         height: 250rem;
     }
-    
+
     .text {
         font-size: 1.3rem;
         line-height: 1.5;
@@ -2900,12 +2925,12 @@ footer hr {
 
     .flexbox__items button {
         padding: 12px 15px;
-        margin-left: 5rem;
+        margin-left: 6.4rem;
         margin-top: 1.5rem;
     }
 
     .blackbox1 {
-        margin-left: 55px;
+        margin-left: 45px;
         width: 78%;
         margin-top: 5rem;
     }
