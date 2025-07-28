@@ -2942,7 +2942,7 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
-        padding-left: 15px;
+        margin-left: 15px;
         margin-top: 70px;
     }
 
