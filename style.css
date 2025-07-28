@@ -2610,7 +2610,7 @@ footer hr {
 
     .bluediv_items h3 {
         font-size: 1.1rem;
-        margin-right: 5rem;
+        margin-right: 10rem;
         margin-top: 1rem;
     }
 
@@ -2634,7 +2634,8 @@ footer hr {
 
     .bluediv_items h1 {
         font-size: 3.3rem;
-        margin-right: 4.05rem;
+        margin-left: -7rem;
+        width: 400px;
     }
 
     .bluediv_items button {
@@ -2643,7 +2644,7 @@ footer hr {
         border-radius: .8rem;
         margin-top: 1.5rem;
         position: relative;
-        left: 3.5rem;
+        left: -1rem;
     }
 
     /* Success */
