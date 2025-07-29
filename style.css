@@ -1012,12 +1012,14 @@ nav ul .none {
     font-size: 3rem;
 }
 
-.thoughts__items i {
+.ustozlar__items i {
     font-size: 30px;
     color: #3f9cfb;
     padding-top: 1rem;
 }
-
+.ustozlar__items img {
+    margin-bottom: 1rem;
+}
 .padding-top2rem {
     padding-top: 2rem;
 }
@@ -1030,7 +1032,13 @@ nav ul .none {
     grid-template-columns: repeat(6, 1fr);
     cursor: pointer;
 }
-
+.ustozlar__items h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.ustozlar__items p{
+    font-size: 1.4rem;
+}
 /*blackbox3*/
 .blackbox3 {
     width: 101.333333333%;
@@ -3093,10 +3101,10 @@ footer hr {
 
     /*ustozlar*/
     .ustozlar {
-        width: 100%;
+        width: 340px;
         height: 700px;
         padding-top: 50px;
-        margin-bottom: 1400px;
+        margin-bottom: 1500px;
     }
     .tajribali_ustozlar {
         font-size: 3rem;
@@ -3105,15 +3113,22 @@ footer hr {
         display: block;
         margin-left: -4.7rem;
     }
-    .thoughts__items{
+    .ustozlar__items{
         border: .5px solid rgb(231, 225, 225);
-        margin-left: -6rem;
+        margin-left: -6.5rem;
         width: 340px;
     }
-    .thoughts__items img {
+    .ustozlar__items img {
         width: 340px;
         height: auto;
         cursor: pointer;
+        margin-bottom: 1rem;
+    }
+    .ustozlar__items h4{
+        font-size: 1.5rem;
+    }
+    .ustozlar__items p{
+        font-size: 1.2rem;
     }
 }
 
