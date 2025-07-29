@@ -2622,6 +2622,7 @@ footer hr {
         position: relative;
         left: -15px;
     }
+
     .bluediv_video video {
         display: block;
     }
@@ -2663,53 +2664,13 @@ footer hr {
 
 
 
-    /*gridbox2*/
-    .gridbox2 {
-        width: 88%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        margin-left: 100px;
-        margin-top: 50px;
-        gap: 2rem;
-    }
-
-    .gridbox2 button:not(.btn_05) {
-        padding: 13px 15px;
-        border: 1px solid #3f9cfb;
-        background-color: #091621;
-        border-radius: 0.5rem;
-        color: #349cfb;
-        font-size: 1.5rem;
-        transition: all 0.4s ease;
-    }
-
-    .gridbox2 button:hover:not(.btn_05) {
-        background-color: #349cfb;
-        color: white;
-    }
-
-    .gridbox2 button:first-child {
-        background-color: #349cfb;
-        border-radius: 0.5rem;
-        color: white;
-        width: 200px;
-        font-weight: 600;
-        font-size: 1.5rem;
-        border: none;
-        transition: all 0.4s ease;
-    }
-
-    .gridbox2 button:first-child:hover {
-        background-color: #206fb9;
-    }
-
     /*gridbox3*/
     .gridbox3 {
-        width: 88%;
+        width: 340px;
         height: 400px;
-        margin-left: 10px;
-        margin-top: 50px;
+        left: -66px;
+        position: relative;
+        transform: translateY(200px);
         display: grid;
         grid-template-columns: repeat(1, 3fr);
         gap: 2.5rem;
@@ -2717,39 +2678,43 @@ footer hr {
     }
 
     .gridbox3 div {
-        border: 2px solid #0b2c48;
+        border: 1.5px solid #5d768b;
         border-radius: 2rem;
         background-color: #081b2e;
     }
 
     .gridbox3 div h4 {
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         padding-top: 4rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 300;
         opacity: 0.8;
     }
 
     .gridbox3 div h2 {
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         padding-top: 2rem;
         font-weight: 600;
-        font-size: 2.3rem;
+        font-size: 1.7rem;
     }
 
     .gridbox3 div h3 {
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         padding-top: 2rem;
         font-weight: 300;
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    .gridbox3 div img{
+        width: 190px;
     }
 
     /*gridbox4*/
     .gridbox4 {
-        width: 88%;
+        width: 340px;
         height: 400px;
-        margin-left: 100px;
-        margin-top: 40px;
+        left: -66px;
+        position: relative;
+        transform: translateY(820px);
         display: grid;
         grid-template-columns: repeat(1, 3fr);
         gap: 2.5rem;
@@ -2757,48 +2722,45 @@ footer hr {
     }
 
     .gridbox4 div {
-        border: 2px solid #0b2c48;
+        border: 1.5px solid #5d768b;
         border-radius: 2rem;
         background-color: #081b2e;
     }
 
     .gridbox4 div h4 {
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         padding-top: 4rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 300;
         opacity: 0.8;
     }
 
     .gridbox4 div h2 {
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         padding-top: 2rem;
         font-weight: 600;
-        font-size: 2.3rem;
+        font-size: 1.7rem;
     }
 
     .gridbox4 div h3 {
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         padding-top: 2rem;
         font-weight: 300;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
-
-    .btnn-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        margin-top: 100rem;
+    .gridbox4 div img{
+        width: 190px;
+        
     }
 
     .btn_06 {
-        padding: 15px 37px;
+        margin-left: 6.7rem;
+        width: 200px;
         border-radius: 1rem;
         border: none;
         background-color: #349cfb;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
         box-shadow: 0 0 20px 0 #349cfb;
         transition: all 0.3s ease;
@@ -2806,6 +2768,11 @@ footer hr {
 
     .btn_06:hover {
         background-color: #206fb9;
+    }
+    .blackbox2 {
+        width: 100%;
+        height: 290rem;
+        background-color: #091621;
     }
 
     .whitebox {
@@ -2853,13 +2820,15 @@ footer hr {
         line-height: 30px;
         margin-bottom: 34rem;
         text-align: left;
-        width:400px;
+        width: 400px;
     }
-    .imkoniyatlar2{
+
+    .imkoniyatlar2 {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
     }
+
     .oquvchilar {
         margin-left: -400px;
         width: 500px;
@@ -2878,22 +2847,6 @@ footer hr {
         gap: 6rem;
     }
 
-    .gridbox3 {
-        width: 88%;
-        height: 800px;
-        margin-left: 100px;
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2.5rem;
-        cursor: pointer;
-    }
-
-    .blackbox2 {
-        width: 100%;
-        height: 300rem;
-        background-color: #091621;
-    }
 
     /* Success */
     .web_page {
@@ -2918,6 +2871,7 @@ footer hr {
         margin-left: 6.4rem;
         margin-top: 1.5rem;
     }
+
     /* Blackbox1 */
     .blackbox1 {
         margin-left: 27px;
@@ -2926,6 +2880,7 @@ footer hr {
     }
 
     /* Success */
+
     /*gridbox*/
     .gridbox1 {
         width: 70%;
@@ -2993,13 +2948,15 @@ footer hr {
     }
 
     /* Success */
+
     /*Jarayonda*/
 
     .blackbox2 .heading {
         padding-top: 8rem;
-        font-size: 4.5rem;
+        font-size: 4rem;
         margin-left: 23px;
     }
+
     .text {
         font-size: 1.5rem;
         line-height: 1.5;
@@ -3008,18 +2965,19 @@ footer hr {
         padding-left: 35px;
         width: 370px;
     }
+
     /*gridbox2*/
     .gridbox2 {
-    width: 400px;
-    height: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    margin-left: 35px;
-    margin-top: 20px;
-    gap: 2rem;
-    margin-bottom: 2rem;
+        width: 400px;
+        height: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        margin-left: 35px;
+        margin-top: 20px;
+        gap: 2rem;
+        margin-bottom: 2rem;
     }
-        
+
 }
 
 @media only screen and (max-width: 392px) {
