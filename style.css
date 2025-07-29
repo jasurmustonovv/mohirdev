@@ -2592,7 +2592,7 @@ footer hr {
     }
 
     .navbar {
-        padding: 0 2.1rem;
+        padding: 0 13rem 0 2.1rem;
     }
 
     nav ul .none {
@@ -2818,8 +2818,8 @@ footer hr {
     .imkoniyatlar h1 {
         font-size: 2.1rem;
         line-height: 30px;
-        margin-bottom: 34rem;
-        text-align: left;
+        margin-bottom: 32rem;
+        margin-left: 2rem;
         width: 400px;
     }
 
@@ -2827,6 +2827,8 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
+        row-gap: 2rem;
+        column-gap: 5.5rem;
     }
 
     .oquvchilar {
@@ -2848,6 +2850,8 @@ footer hr {
     }
 
 
+    /*Success*/
+
     /* Success */
     .web_page {
         display: none;
@@ -2868,7 +2872,7 @@ footer hr {
 
     .flexbox__items button {
         padding: 12px 15px;
-        margin-left: 6.4rem;
+        margin-left: 4.7rem;
         margin-top: 1.5rem;
     }
 
@@ -2889,7 +2893,7 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
         margin-left: 15px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .gridbox_kurslar .img {
@@ -2968,7 +2972,7 @@ footer hr {
 
     /*gridbox2*/
     .gridbox2 {
-        width: 400px;
+        width: 340px;
         height: 30px;
         display: grid;
         grid-template-columns: repeat(2, 4fr);
@@ -2977,7 +2981,7 @@ footer hr {
         gap: 2rem;
         margin-bottom: 2rem;
     }
-
+    /*Success*/
 }
 
 @media only screen and (max-width: 392px) {
