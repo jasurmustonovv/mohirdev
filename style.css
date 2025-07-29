@@ -3156,13 +3156,14 @@ footer hr {
         font-size: 3rem;
         margin-left: -14rem;
     }
+
     /*success*/
 
     /*Jarayonda*/
     /*blackbox3*/
     .blackbox3 {
         width: 101.333333333%;
-        height: 820px;
+        height: 920px;
         background-color: #17222B;
         display: flex;
         justify-content: center;
@@ -3171,6 +3172,7 @@ footer hr {
         max-width: 1536px;
         margin-left: -1rem;
     }
+
     .blackboxx {
         width: 340px;
         height: 300px;
@@ -3180,43 +3182,90 @@ footer hr {
         margin-left: -5.2rem;
         margin-bottom: 350px;
     }
+
     .blackboxx h1 {
         margin-top: 50px;
         padding-left: 3rem;
         font-size: 3rem;
         line-height: 3.5rem;
     }
+
     .blackboxx h2 {
         margin-top: 2rem;
         padding-left: 3rem;
         line-height: 2.2rem;
         font-size: 1.7rem;
     }
+
     /*BOX3*/
 
-.box3 {
-    width: 340px;
-    height: 400px;
-    margin-left: 1px;
-    margin-top: 100px;
-    padding: 1rem;
-}
-label {
-    margin-left: 20px;
-    font-size: 15px;
-    display: block;
-}
-.inputs input {
-    width: 285px;
-    height: 40px;
-    font-size: 13px;
-    margin-bottom: 10px;
-}
-.inputs button {
-    width: 285px;
-    height: 40px;
-    font-size: 13px;
-}
+    .box3 {
+        width: 340px;
+        height: 400px;
+        margin-left: 1px;
+        margin-top: 100px;
+        padding: 1rem;
+    }
+
+    label {
+        margin-left: 20px;
+        font-size: 15px;
+        display: block;
+    }
+
+    .inputs input {
+        width: 285px;
+        height: 40px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .inputs button {
+        width: 285px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .blackbox3 hr {
+        border: 1px solid #393f44;
+        margin-top: 5rem;
+    }
+    
+    .logo2 {
+        margin-left: 50px;
+        padding-top: 10rem;
+    }
+    .logo2 h1 {
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        width: 300px;
+        padding-top: 2rem;
+    }
+    footer nav {
+        height: 440px;
+    }
+    footer nav ul {
+        display: block;
+        padding-left: 10px;
+    }
+    
+    .div2 {
+        width: 40%;
+        display: block;
+    }
+    .hujjatlar {
+        padding-top: 10rem;
+    }
+    .kompaniya {
+        margin-left: 1rem;
+
+    }
+    .IT-park {
+        margin-top: -5rem;
+    }
+    .malumot {
+        margin-left: -6rem;
+    }
+    
 }
 
 @media only screen and (max-width: 392px) {
