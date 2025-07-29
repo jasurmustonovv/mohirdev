@@ -2809,6 +2809,7 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
         padding-top: 10px;
         gap: 1.5rem;
+        transform: translateX(10px);
     }
 
     .btn_04 {
@@ -3235,7 +3236,7 @@ footer hr {
     }
 
     .logo2 {
-        margin-left: 50px;
+        margin-left: 40px;
         padding-top: 10rem;
     }
 
@@ -3278,31 +3279,39 @@ footer hr {
 
     /*tulovlar*/
     .tulovlar {
-        margin-left: 60px;
+        margin-left: 40px;
         gap: 2rem;
         margin-top: -50px;
+        width: 350px;
+        height: 40px;
         cursor: pointer;
     }
     footer hr {
-        width: 400px;
-        margin-left: 60px;
+        width: 340px;
+        margin-left: 50px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
     .over {
         font-size: 1.5rem;
         margin-left: 5rem;
+        width: 200px;
         color: rgb(168, 165, 165);
     }
     .overbox {
+        width: 400px;
+        transform: translateX(-130px);
+    }
+    .overbox div {
         width: 340px;
-        transform: translateX(-120px);
+        transform: translateX(10px);
     }
 
     .hujjatlar {
         width: 340px;
         transform: translateX(-80px);
         padding-top: 10rem;
+        column-gap: 1rem;
     }
 
     footer {
