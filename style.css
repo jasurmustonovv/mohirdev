@@ -2605,11 +2605,10 @@ footer hr {
     .container {
         width: 400px;
         margin-left: -1.5rem;
-        
     }
 
     .navbar {
-        padding: 0 13rem 0 2.5rem;
+        padding: 0 12rem 0 3rem;
     }
 
     nav ul .none {
@@ -3302,7 +3301,7 @@ footer hr {
 
     .hujjatlar {
         width: 340px;
-        margin-left: -90px;
+        transform: translateX(-80px);
         padding-top: 10rem;
     }
 
