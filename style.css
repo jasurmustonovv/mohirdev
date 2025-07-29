@@ -3163,7 +3163,7 @@ footer hr {
     /*blackbox3*/
     .blackbox3 {
         width: 101.333333333%;
-        height: 920px;
+        height: 1220px;
         background-color: #17222B;
         display: flex;
         justify-content: center;
@@ -3225,53 +3225,86 @@ footer hr {
         height: 40px;
         font-size: 13px;
     }
+
     .blackbox3 hr {
         border: 1px solid #393f44;
         margin-top: 5rem;
     }
-    
+
     .logo2 {
         margin-left: 50px;
         padding-top: 10rem;
     }
+
     .logo2 h1 {
         font-size: 2rem;
         font-family: "Poppins", sans-serif;
         width: 300px;
         padding-top: 2rem;
     }
+
     footer nav {
         height: 440px;
     }
+
     footer nav ul {
         display: block;
         padding-left: 10px;
     }
-    
+
     .div2 {
         width: 40%;
+        height: 400px;
         display: block;
     }
+
     .hujjatlar {
         padding-top: 10rem;
     }
+
     .kompaniya {
         margin-left: 1rem;
 
     }
+
     .IT-park {
         margin-top: -5rem;
     }
+
     .malumot {
         margin-left: -6rem;
     }
+
     /*tulovlar*/
     .tulovlar {
         margin-left: 60px;
         gap: 2rem;
         margin-top: -50px;
         cursor: pointer;
-}
+    }
+    footer hr {
+        width: 400px;
+        margin-left: 60px;
+        margin-top: 3rem;
+        border: 1px solid #393f44;
+    }
+    .over {
+        font-size: 1.5rem;
+        margin-left: 5rem;
+        color: rgb(168, 165, 165);
+    }
+    .overbox {
+        width: 340px;
+        transform: translateX(-120px);
+    }
+
+    .hujjatlar {
+        width: 340px;
+    }
+
+    footer {
+        height: 600px;
+    }
 }
 
 @media only screen and (max-width: 392px) {
