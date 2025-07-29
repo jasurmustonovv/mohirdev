@@ -2647,7 +2647,7 @@ footer hr {
         border-radius: .8rem;
         margin-top: 1.5rem;
         position: relative;
-        left: -3rem;
+        left: -3.2rem;
         font-size: 12px;
     }
 
@@ -2993,11 +2993,19 @@ footer hr {
     }
 
     /* Success */
+    /*Jarayonda*/
+
     .blackbox2 .heading {
-        padding-top: 10rem;
+        padding-top: 8rem;
         font-size: 4.5rem;
-        text-align: center;
     }
+    .text {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-top: 2rem;
+        opacity: 0.7;
+        padding-left: 1px;
+    
 }
 
 @media only screen and (max-width: 392px) {
