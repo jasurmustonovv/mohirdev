@@ -1,4 +1,7 @@
 /*core styles*/
+html, body {
+    overflow-x: hidden;
+}
 
 * {
     margin: 0;
@@ -2600,7 +2603,6 @@ footer hr {
 
 @media only screen and (max-width: 500px) {
     .container {
-        overflow-x: hidden;
         width: 400px;
         margin-left: -1.5rem;
         
@@ -2789,7 +2791,7 @@ footer hr {
     }
 
     .blackbox2 {
-        width: 500px;
+        width: 450px;
         height: 290rem;
         background-color: #091621;
     }
