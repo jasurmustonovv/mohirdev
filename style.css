@@ -2592,7 +2592,7 @@ footer hr {
     }
 
     .navbar {
-        padding: 0 13rem 0 2.1rem;
+        padding: 0 13rem 0 2.5rem;
     }
 
     nav ul .none {
@@ -2981,100 +2981,140 @@ footer hr {
     /*Jarayonda*/
     .whitebox {
         width: 400px;
-        height: 250rem;
+        height: 480rem;
         margin-left: 100px;
     }
+
     .whitebox h1 {
         margin-left: -20rem;
         padding-top: 8rem;
         font-size: 4.5rem;
         margin-bottom: 2rem;
     }
+
     .navbarcha ul {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-left: -7rem;
         width: 380px;
         column-gap: 1rem;
     }
-    .navbarcha ul li{
+
+    .navbarcha ul li {
         padding: 1px;
     }
-    .hide{
+
+    .hide {
         visibility: hidden;
     }
+
     /*gridbox5*/
 
-.gridbox5 {
-    width: 340px;
-    height: 1140px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding-top:1rem;
-    gap: 2rem;
-    margin-left: -6.5rem;
-    margin-bottom: 10rem;
-}
-.gridbox5 div{
-    border: 1px solid rgb(204, 204, 204);
-}
-/*gridbox6*/
-.gridbox6 {
-    width: 340px;
-    height: 420px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding-top: 35rem;
-    gap: 2rem;
-    margin-left: -6.5rem;
-    margin-bottom: 1700px;
-}
-/*button*/
-.barchasini-korsatish {
-    margin-left: -20rem;
-    padding-top: 100px;
-}
-.barchasini-korsatish button {
-    padding: 12px 16px;
-    font-size: 1.4rem;
-}
+    .gridbox5 {
+        width: 340px;
+        height: 1140px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 1rem;
+        gap: 2rem;
+        margin-left: -6.5rem;
+        margin-bottom: 10rem;
+    }
 
-/* Asosiy fon qismi */
-.soha-topish {
-    width: 340px;
-    height: 650px;
-    background-color: #3f9cfb;
-    border-radius: 2rem;
-    margin-top: 3rem;
-    padding: 3rem 2rem;
-    box-sizing: border-box;
-    margin-bottom: 4rem;
-    margin-left: -65px;
-}
-.soha-left h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    margin-left: 2px;
-    margin-top: -70px;
-}
-.soha-left h3 {
-    padding-left: 2px;
-    font-size: 2rem;
-    line-height: 1.2;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    max-width: 600px;
-}
-.soha-left button {
-    padding: 12px 16px;
-    border-radius: 1rem;
-    font-size: 14px;
-    margin-left: 2px;
-}
-.soha-right img {
-    margin-top: 1px;
-}
+    .gridbox5 div {
+        border: 1px solid rgb(204, 204, 204);
+    }
+
+    /*gridbox6*/
+    .gridbox6 {
+        width: 340px;
+        height: 420px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 35rem;
+        gap: 2rem;
+        margin-left: -6.5rem;
+        margin-bottom: 1700px;
+    }
+
+    /*button*/
+    .barchasini-korsatish {
+        margin-left: -20rem;
+        padding-top: 100px;
+    }
+
+    .barchasini-korsatish button {
+        padding: 12px 16px;
+        font-size: 1.4rem;
+    }
+
+    /* Asosiy fon qismi */
+    .soha-topish {
+        width: 340px;
+        height: 650px;
+        background-color: #3f9cfb;
+        border-radius: 2rem;
+        margin-top: 3rem;
+        padding: 3rem 2rem;
+        box-sizing: border-box;
+        margin-bottom: 4rem;
+        margin-left: -65px;
+    }
+
+    .soha-left h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        margin-left: 2px;
+        margin-top: -70px;
+    }
+
+    .soha-left h3 {
+        padding-left: 2px;
+        font-size: 1.7rem;
+        line-height: 1.2;
+        font-weight: 300;
+        margin-bottom: 2rem;
+        max-width: 600px;
+    }
+
+    .soha-left button {
+        padding: 12px 16px;
+        border-radius: 1rem;
+        font-size: 14px;
+        margin-left: 2px;
+    }
+
+    .soha-right img {
+        margin-top: 1px;
+    }
+
+    /*Success*/
+
+    /*ustozlar*/
+    .ustozlar {
+        width: 100%;
+        height: 700px;
+        padding-top: 50px;
+        margin-bottom: 1400px;
+    }
+    .tajribali_ustozlar {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+        display: block;
+        margin-left: -4.7rem;
+    }
+    .thoughts__items{
+        border: .5px solid rgb(231, 225, 225);
+        margin-left: -6rem;
+        width: 340px;
+    }
+    .thoughts__items img {
+        width: 340px;
+        height: auto;
+        cursor: pointer;
+    }
 }
 
 @media only screen and (max-width: 392px) {
