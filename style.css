@@ -3162,8 +3162,8 @@ footer hr {
     /*Jarayonda*/
     /*blackbox3*/
     .blackbox3 {
-        width: 101.333333333%;
-        height: 1220px;
+        width: 500px;
+        height: 850px;
         background-color: #17222B;
         display: flex;
         justify-content: center;
@@ -3263,16 +3263,17 @@ footer hr {
     }
 
     .kompaniya {
-        margin-left: 1rem;
-
+        display: none;
     }
 
     .IT-park {
         margin-top: -5rem;
     }
-
+    .platforma{
+        display: none;
+    }
     .malumot {
-        margin-left: -6rem;
+        display: none;
     }
 
     /*tulovlar*/
@@ -3300,10 +3301,12 @@ footer hr {
 
     .hujjatlar {
         width: 340px;
+        margin-left: -90px;
     }
 
     footer {
         height: 600px;
+        width: 500px;
     }
 }
 
