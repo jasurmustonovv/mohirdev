@@ -2600,7 +2600,7 @@ footer hr {
 
 @media only screen and (max-width: 500px) {
     .container {
-        width: 505px;
+        width: 500px;
         margin-left: -1.5rem;
     }
 
@@ -2787,7 +2787,7 @@ footer hr {
     }
 
     .blackbox2 {
-        width: 100%;
+        width: 500px;
         height: 290rem;
         background-color: #091621;
     }
@@ -2819,7 +2819,7 @@ footer hr {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 500px;
         height: 400px;
         padding-left: 20px;
         padding-top: 5rem;
@@ -2897,7 +2897,7 @@ footer hr {
 
     /*gridbox*/
     .gridbox1 {
-        width: 70%;
+        width: 500px;
         height: 650px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -3246,14 +3246,16 @@ footer hr {
     footer nav {
         height: 440px;
     }
-
+    .flex_h1 {
+        display: flex;
+    }
     footer nav ul {
         display: block;
         padding-left: 10px;
     }
 
     .div2 {
-        width: 40%;
+        width: 500px;
         height: 400px;
         display: block;
     }
