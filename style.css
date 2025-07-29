@@ -3149,6 +3149,7 @@ footer hr {
         grid-template-columns: repeat(3, 2fr);
         cursor: pointer;
         margin-left: -7rem;
+        row-gap: 1.5rem;
     }
 
     .ustozlar h1:last-child {
