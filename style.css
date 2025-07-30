@@ -1,5 +1,6 @@
 /*core styles*/
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -643,14 +644,17 @@ nav ul .none {
     font-weight: 300;
     font-size: 2rem;
 }
-.gridbox3 img{
+
+.gridbox3 img {
     width: 300px;
     transform: translateX(100px);
 }
-.gridbox4 img{
+
+.gridbox4 img {
     width: 200px;
     transform: translateX(100px);
 }
+
 /*gridbox4*/
 .gridbox4 {
     width: 88%;
@@ -1033,14 +1037,7 @@ nav ul .none {
     padding-top: 2rem;
 }
 
-.imgg {
-    padding-top: 7rem;
-    width: 100%;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    cursor: pointer;
-}
+
 
 .ustozlar__items h4 {
     font-size: 2rem;
@@ -1049,8 +1046,16 @@ nav ul .none {
 
 .ustozlar__items p {
     font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
-
+.imgg {
+    padding-top: 24rem;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    cursor: pointer;
+}
 /*blackbox3*/
 .blackbox3 {
     width: 101.333333333%;
@@ -2151,14 +2156,14 @@ footer hr {
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
     .container {
-        width: 740px;
-        margin-left: -1.5rem;
+        width: 765px;
+        margin-left: 1px;
     }
 
     .bluediv {
-        width: 75rem;
+        margin-top: 50px;
     }
 
     .navbar {
@@ -2172,21 +2177,25 @@ footer hr {
     }
 
     .bluediv_items h3 {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
+        margin-top: -150px;
         text-align: center;
+        margin-left: -60px;
     }
 
     .bluediv_items h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         text-align: center;
+        margin-left: -6rem;
+        margin-bottom: 1rem;
     }
 
     .bluediv_items button {
-        padding: 15px 30px;
-        font-size: 1.1rem;
+        padding: 20px 40px;
+        font-size: 2rem;
         border-radius: .8rem;
         margin-top: 1.5rem;
-        margin-left: 12rem;
+        margin-left: 6rem;
     }
 
     /*imkoniyatlar*/
@@ -2194,30 +2203,43 @@ footer hr {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
-        height: 200px;
-        padding-left: 25px;
+        width: 500px;
+        height: 400px;
+        padding-left: 30px;
         padding-top: 5rem;
     }
 
-    .imkoniyatlar2 {
-        display: flex;
-        align-items: center;
-        gap: 13px;
+    .imkoniyatlar h1 {
+        font-size: 4rem;
+        width: 500px;
+        text-align: center;
+        line-height: 1.3;
+        margin-bottom: 25rem;
+        margin-left: 10rem;
     }
 
-    .imkoniyatlar h1 {
-        font-size: 2.2rem;
-        line-height: 30px;
+    .imkoniyatlar2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+        row-gap: 2rem;
+        column-gap: 15rem;
+        margin-left: -220px;
+    }
+
+    .oquvchilar {
+        margin-left: -400px;
+        width: 500px;
     }
 
     .oquvchilar h1 {
-        font-size: 4.1rem;
+        font-size: 4rem;
         padding-bottom: 0.3rem;
+        margin-top: 120px;
     }
 
     .oquvchilar h3 {
-        font-size: 1.1rem;
+        font-size: 2rem;
         padding-top: 0.4rem;
     }
 
@@ -2228,25 +2250,25 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
         gap: 2rem;
-        padding-left: 10px;
+        padding-left: 1px;
         margin-top: 70px;
     }
 
     .gridbox_kurslar .img {
-        width: 12rem;
-        padding-left: 2rem;
+        width: 14rem;
+        padding-left: 3rem;
         padding-top: 1rem;
     }
 
     .gridbox_kurslar h2 {
         padding-left: 5rem;
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         padding-top: 1rem;
     }
 
     .gridbox_kurslar h3 {
         padding-left: 5rem;
-        font-size: 1.7rem;
+        font-size: 2rem;
         line-height: 2.3rem;
         padding-top: 2rem;
         width: 400px;
@@ -2261,24 +2283,24 @@ footer hr {
         background-color: #349cfb;
         color: white;
         border-radius: 0.4rem;
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .gridbox_kasblar .img {
-        width: 10rem;
-        padding-left: 3rem;
-        padding-top: 1rem;
+        width: 14rem;
+        padding-left: 4rem;
+        padding-top: 1.5rem;
     }
 
     .gridbox_kasblar h2 {
-        padding-left: 2.2em;
-        font-size: 2.3rem;
+        padding-left: 5rem;
+        font-size: 2.5rem;
         padding-top: 3rem;
     }
 
     .gridbox_kasblar h3 {
         padding-left: 5rem;
-        font-size: 1.7rem;
+        font-size: 2rem;
         line-height: 2.4rem;
         padding-top: 2rem;
     }
@@ -2288,13 +2310,13 @@ footer hr {
         height: 5rem;
         margin-left: 5rem;
         margin-top: 3.1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     /*blackbox1*/
     .blackbox1 {
-        width: 100%;
-        margin-left: 9px;
+        width: 743px;
+        margin-left: 1px;
         height: 350px;
     }
 
@@ -2308,14 +2330,14 @@ footer hr {
     }
 
     .flexbox__items h3 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 2rem;
     }
 
     .flexbox__items h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         margin-bottom: 1rem;
         line-height: 4rem;
     }
@@ -2331,7 +2353,8 @@ footer hr {
     }
 
     .web_page {
-        margin-left: 250px;
+        margin-left: 400px;
+        padding-top: 40px;
         padding-left: 20px;
     }
 
@@ -2339,13 +2362,17 @@ footer hr {
     .thoughts {
         width: 100%;
         padding-top: 5rem;
-        font-size: 1rem;
         padding-left: 3rem;
+    }
+
+    .thoughts h1 {
+        font-size: 4rem;
+        text-align: center;
     }
 
     .thoughts__container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 2fr);
         padding-top: 10px;
         gap: 1.5rem;
     }
@@ -2358,25 +2385,79 @@ footer hr {
     }
 
     .thoughts__items h4 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
         padding-top: 2rem;
     }
 
     .thoughts__items p {
-        font-size: 13px;
+        font-size: 17px;
         opacity: 0.7;
         line-height: 15px;
     }
 
     .btn_04 {
         margin-top: -2rem;
-        padding: 15px 35px;
+        padding: 18px 36px;
+        font-size: 2.2rem;
     }
 
     .btn_06 {
         padding: 15px 30px;
         font-size: 1.5rem;
+    }
+
+    .blackbox2 .heading {
+        padding-top: 8rem;
+        font-size: 5rem;
+        text-align: center;
+        margin-left: -8rem;
+    }
+
+    .text {
+        font-size: 2rem;
+        line-height: 1.5;
+        margin-top: 2rem;
+        opacity: 0.7;
+        padding-left: 35px;
+        width: 700px;
+        text-align: justify;
+        margin-bottom: 4rem;
+    }
+
+    /*gridbox2*/
+    .gridbox2 {
+        width: 675px;
+        height: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        margin-left: 35px;
+        margin-top: 20px;
+        gap: 2rem;
+        margin-bottom: 13rem;
+    }
+    /*gridbox3*/
+    .gridbox3 {
+        width: 680px;
+        height: 400px;
+        margin-left: 1px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 2.5rem;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+        /*gridbox4*/
+    .gridbox4 {
+        width: 680px;
+        height: 400px;
+        margin-left: 1px;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 2.5rem;
+        cursor: pointer;
     }
 
 }
@@ -2650,9 +2731,9 @@ footer hr {
     .gridbox3 {
         width: 340px;
         height: 400px;
-        left: -60px;
+        left: -66px;
         position: relative;
-        transform: translateY(200px);
+        transform: translateY(240px);
         display: grid;
         grid-template-columns: repeat(1, 3fr);
         gap: 2.5rem;
@@ -2695,7 +2776,7 @@ footer hr {
     .gridbox4 {
         width: 340px;
         height: 400px;
-        left: -6px;
+        left: -66px;
         position: relative;
         transform: translateY(820px);
         display: grid;
@@ -2748,6 +2829,7 @@ footer hr {
         font-weight: 600;
         box-shadow: 0 0 20px 0 #349cfb;
         transition: all 0.3s ease;
+        transform: translateY(1570px);
     }
 
     .btn_06:hover {
@@ -3070,7 +3152,7 @@ footer hr {
     }
 
     .soha-right img {
-        margin-top: 1px;
+        margin-top: 43px;
     }
 
     /*Success*/
@@ -3217,9 +3299,11 @@ footer hr {
     footer nav {
         height: 440px;
     }
+
     .flex_h1 {
         display: flex;
     }
+
     footer nav ul {
         display: block;
         padding-left: 10px;
@@ -3230,6 +3314,7 @@ footer hr {
         height: 400px;
         display: block;
     }
+
     .kompaniya {
         display: none;
     }
@@ -3237,9 +3322,11 @@ footer hr {
     .IT-park {
         margin-top: -5rem;
     }
-    .platforma{
+
+    .platforma {
         display: none;
     }
+
     .malumot {
         display: none;
     }
@@ -3253,22 +3340,26 @@ footer hr {
         height: 40px;
         cursor: pointer;
     }
+
     footer hr {
         width: 340px;
         margin-left: 50px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
+
     .over {
         font-size: 1.5rem;
         margin-left: 5rem;
         width: 200px;
         color: rgb(168, 165, 165);
     }
+
     .overbox {
         width: 400px;
         transform: translateX(-130px);
     }
+
     .overbox div {
         width: 340px;
         transform: translateX(10px);
@@ -3285,6 +3376,7 @@ footer hr {
         height: 600px;
         width: 500px;
     }
+
     .container {
         width: 500px;
         margin-left: -2.5rem;
@@ -3317,7 +3409,7 @@ footer hr {
 
     .bluediv_items h3 {
         font-size: 1.1rem;
-        margin-right: 5rem;
+        margin-right: -1rem;
         margin-top: 1rem;
     }
 
@@ -3362,21 +3454,11 @@ footer hr {
 
     /* Success */
 
-    .text {
-        font-size: 1.3rem;
-        line-height: 1.5;
-        margin-top: 2rem;
-        opacity: 0.7;
-        padding-left: 100px;
-    }
-
-
-
     /*gridbox3*/
     .gridbox3 {
         width: 380px;
         height: 400px;
-        left: -66px;
+        left: 40px;
         position: relative;
         transform: translateY(240px);
         display: grid;
@@ -3421,7 +3503,7 @@ footer hr {
     .gridbox4 {
         width: 380px;
         height: 400px;
-        left: -66px;
+        left: 40px;
         position: relative;
         transform: translateY(820px);
         display: grid;
@@ -3492,15 +3574,18 @@ footer hr {
     }
 
     .thoughts h1 {
-        margin-left: 6rem;
+        margin-left: -4.5rem;
         font-size: 2.5rem;
     }
+
     .thoughts h4 {
         font-size: 1.7rem;
     }
+
     .thoughts p {
         font-size: 1.5rem;
     }
+
     .thoughts__container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -3530,7 +3615,7 @@ footer hr {
         font-size: 2.1rem;
         line-height: 30px;
         margin-bottom: 32rem;
-        margin-left: 1.2rem;
+        margin-left: -.1rem;
         width: 400px;
     }
 
@@ -3539,25 +3624,26 @@ footer hr {
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
         row-gap: 2rem;
-        column-gap: 5.5rem;
+        width: 100px;
+        column-gap: 3.5rem;
     }
 
+
     .oquvchilar {
-        margin-left: -400px;
+        margin-left: -360px;
         width: 500px;
     }
+
 
     .oquvchilar h1 {
         font-size: 3.1rem;
         padding-bottom: 0.3rem;
         margin-top: 10px;
-        gap: 6rem;
     }
 
     .oquvchilar h3 {
         font-size: 1.2rem;
         padding-top: 0.4rem;
-        gap: 6rem;
     }
 
 
@@ -3668,7 +3754,7 @@ footer hr {
     .blackbox2 .heading {
         padding-top: 8rem;
         font-size: 4rem;
-        margin-left: 5rem;
+        margin-left: -13rem;
     }
 
     .text {
@@ -3677,16 +3763,17 @@ footer hr {
         margin-top: 2rem;
         opacity: 0.7;
         padding-left: 35px;
-        width: 370px;
+        width: 430px;
+        text-align: justify;
     }
 
     /*gridbox2*/
     .gridbox2 {
-        width: 340px;
+        width: 380px;
         height: 30px;
         display: grid;
         grid-template-columns: repeat(2, 4fr);
-        margin-left: 35px;
+        margin-left: 40px;
         margin-top: 20px;
         gap: 2rem;
         margin-bottom: 2rem;
@@ -3802,7 +3889,7 @@ footer hr {
     }
 
     .soha-right img {
-        transform: translateY(42px);
+        transform: translateY(1px);
     }
 
     /*Success*/
@@ -3950,9 +4037,11 @@ footer hr {
     footer nav {
         height: 440px;
     }
+
     .flex_h1 {
         display: flex;
     }
+
     footer nav ul {
         display: block;
         padding-left: 10px;
@@ -3963,6 +4052,7 @@ footer hr {
         height: 400px;
         display: block;
     }
+
     .kompaniya {
         display: none;
     }
@@ -3970,9 +4060,11 @@ footer hr {
     .IT-park {
         margin-top: -5rem;
     }
-    .platforma{
+
+    .platforma {
         display: none;
     }
+
     .malumot {
         display: none;
     }
@@ -3986,22 +4078,26 @@ footer hr {
         height: 40px;
         cursor: pointer;
     }
+
     footer hr {
         width: 340px;
         margin-left: 50px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
+
     .over {
         font-size: 1.5rem;
         margin-left: 5rem;
         width: 200px;
         color: rgb(168, 165, 165);
     }
+
     .overbox {
         width: 400px;
         transform: translateX(-130px);
     }
+
     .overbox div {
         width: 340px;
         transform: translateX(10px);
@@ -4018,11 +4114,13 @@ footer hr {
         height: 600px;
         width: 500px;
     }
+
     .container {
         width: 500px;
         margin-left: -2.5rem;
     }
 }
+
 @media only screen and (max-width: 393px) {
     .container {
         width: 400px;
@@ -4107,7 +4205,7 @@ footer hr {
     .gridbox3 {
         width: 340px;
         height: 400px;
-        left: -66px;
+        left: 40px;
         position: relative;
         transform: translateY(240px);
         display: grid;
@@ -4152,7 +4250,7 @@ footer hr {
     .gridbox4 {
         width: 340px;
         height: 400px;
-        left: -66px;
+        left: 40px;
         position: relative;
         transform: translateY(820px);
         display: grid;
@@ -4195,7 +4293,7 @@ footer hr {
     }
 
     .btn_06 {
-        margin-left: 6.7rem;
+        margin-left: 7rem;
         width: 200px;
         border-radius: 1rem;
         border: none;
@@ -4257,7 +4355,7 @@ footer hr {
         font-size: 2.1rem;
         line-height: 30px;
         margin-bottom: 32rem;
-        margin-left: 1.2rem;
+        margin-left: -2rem;
         width: 400px;
     }
 
@@ -4266,11 +4364,13 @@ footer hr {
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
         row-gap: 2rem;
-        column-gap: 5.5rem;
+        width: 100px;
+        column-gap: 3.5rem;
     }
 
+
     .oquvchilar {
-        margin-left: -400px;
+        margin-left: -355px;
         width: 500px;
     }
 
@@ -4278,13 +4378,11 @@ footer hr {
         font-size: 3.1rem;
         padding-bottom: 0.3rem;
         margin-top: 10px;
-        gap: 6rem;
     }
 
     .oquvchilar h3 {
         font-size: 1.2rem;
         padding-top: 0.4rem;
-        gap: 6rem;
     }
 
 
@@ -4332,7 +4430,7 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
         margin-left: 15px;
-        transform: translateX(10px);
+        transform: translateX(21px);
         margin-top: 0px;
     }
 
@@ -4395,7 +4493,7 @@ footer hr {
     .blackbox2 .heading {
         padding-top: 8rem;
         font-size: 4rem;
-        margin-left: 23px;
+        margin-left: -17rem;
     }
 
     .text {
@@ -4676,9 +4774,11 @@ footer hr {
     footer nav {
         height: 440px;
     }
+
     .flex_h1 {
         display: flex;
     }
+
     footer nav ul {
         display: block;
         padding-left: 10px;
@@ -4689,6 +4789,7 @@ footer hr {
         height: 400px;
         display: block;
     }
+
     .kompaniya {
         display: none;
     }
@@ -4696,9 +4797,11 @@ footer hr {
     .IT-park {
         margin-top: -5rem;
     }
-    .platforma{
+
+    .platforma {
         display: none;
     }
+
     .malumot {
         display: none;
     }
@@ -4712,22 +4815,26 @@ footer hr {
         height: 40px;
         cursor: pointer;
     }
+
     footer hr {
         width: 340px;
         margin-left: 50px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
+
     .over {
         font-size: 1.5rem;
         margin-left: 5rem;
         width: 200px;
         color: rgb(168, 165, 165);
     }
+
     .overbox {
         width: 400px;
         transform: translateX(-130px);
     }
+
     .overbox div {
         width: 340px;
         transform: translateX(10px);
@@ -4744,11 +4851,13 @@ footer hr {
         height: 600px;
         width: 500px;
     }
+
     .container {
         width: 500px;
         margin-left: -2.5rem;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .container {
         width: 360px;
@@ -4775,7 +4884,7 @@ footer hr {
 
     .bluediv_items h3 {
         font-size: 1.1rem;
-        margin-right: 9rem;
+        margin-right: 3rem;
         margin-top: 1rem;
     }
 
@@ -4833,7 +4942,7 @@ footer hr {
     .gridbox3 {
         width: 340px;
         height: 400px;
-        left: -75px;
+        left: 24px;
         position: relative;
         transform: translateY(240px);
         display: grid;
@@ -4878,7 +4987,7 @@ footer hr {
     .gridbox4 {
         width: 340px;
         height: 400px;
-        left: -75px;
+        left: 24px;
         position: relative;
         transform: translateY(820px);
         display: grid;
@@ -4950,7 +5059,7 @@ footer hr {
     }
 
     .thoughts h1 {
-        margin-left: 3rem;
+        margin-left: -11rem;
     }
 
     .thoughts__container {
@@ -4964,6 +5073,7 @@ footer hr {
     .btn_04 {
         margin-top: -2rem;
         padding: 13px 26px;
+        font-size: 1.7rem;
         margin-right: 12rem;
     }
 
@@ -4982,7 +5092,7 @@ footer hr {
         font-size: 2.1rem;
         line-height: 30px;
         margin-bottom: 32rem;
-        margin-left: 1rem;
+        margin-left: -3.5rem;
         width: 400px;
     }
 
@@ -4991,11 +5101,12 @@ footer hr {
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
         row-gap: 2rem;
-        column-gap: 5.5rem;
+        width: 100px;
+        column-gap: 3.5rem;
     }
 
     .oquvchilar {
-        margin-left: -400px;
+        margin-left: -360px;
         width: 500px;
     }
 
@@ -5056,7 +5167,7 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
-        margin-left: 10px;
+        margin-left: 15px;
         transform: translateX(10px);
         margin-top: 0px;
     }
@@ -5120,7 +5231,7 @@ footer hr {
     .blackbox2 .heading {
         padding-top: 8rem;
         font-size: 4rem;
-        margin-left: 17px;
+        margin-left: -19rem;
     }
 
     .text {
@@ -5402,9 +5513,11 @@ footer hr {
     footer nav {
         height: 440px;
     }
+
     .flex_h1 {
         display: flex;
     }
+
     footer nav ul {
         display: block;
         padding-left: 10px;
@@ -5415,6 +5528,7 @@ footer hr {
         height: 400px;
         display: block;
     }
+
     .kompaniya {
         display: none;
     }
@@ -5422,9 +5536,11 @@ footer hr {
     .IT-park {
         margin-top: -5rem;
     }
-    .platforma{
+
+    .platforma {
         display: none;
     }
+
     .malumot {
         display: none;
     }
@@ -5438,22 +5554,26 @@ footer hr {
         height: 40px;
         cursor: pointer;
     }
+
     footer hr {
         width: 340px;
         margin-left: 35px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
+
     .over {
         font-size: 1.5rem;
         margin-left: 4rem;
         width: 200px;
         color: rgb(168, 165, 165);
     }
+
     .overbox {
         width: 400px;
         transform: translateX(-130px);
     }
+
     .overbox div {
         width: 340px;
         transform: translateX(1px);
@@ -5470,6 +5590,7 @@ footer hr {
         height: 600px;
         width: 500px;
     }
+
     .container {
         width: 500px;
         margin-left: -2.5rem;
