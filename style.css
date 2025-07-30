@@ -613,6 +613,7 @@ nav ul .none {
     grid-template-columns: repeat(3, 2fr);
     gap: 2.5rem;
     cursor: pointer;
+    margin-bottom: 80px;
 }
 
 .gridbox3 div {
@@ -642,7 +643,14 @@ nav ul .none {
     font-weight: 300;
     font-size: 2rem;
 }
-
+.gridbox3 img{
+    width: 300px;
+    transform: translateX(100px);
+}
+.gridbox4 img{
+    width: 200px;
+    transform: translateX(100px);
+}
 /*gridbox4*/
 .gridbox4 {
     width: 88%;
@@ -683,16 +691,10 @@ nav ul .none {
     font-size: 2rem;
 }
 
-.btnn-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    margin-top: 10rem;
-}
 
 .btn_06 {
-    padding: 15px 37px;
+    width: 300px;
+    height: 50px;
     border-radius: 1rem;
     border: none;
     background-color: #349cfb;
@@ -701,6 +703,8 @@ nav ul .none {
     font-weight: 600;
     box-shadow: 0 0 20px 0 #349cfb;
     transition: all 0.3s ease;
+    margin-left: 610px;
+    transform: translateY(120px);
 }
 
 .btn_06:hover {
@@ -4104,7 +4108,7 @@ footer hr {
         height: 400px;
         left: -66px;
         position: relative;
-        transform: translateY(200px);
+        transform: translateY(240px);
         display: grid;
         grid-template-columns: repeat(1, 3fr);
         gap: 2.5rem;
@@ -4200,6 +4204,8 @@ footer hr {
         font-weight: 600;
         box-shadow: 0 0 20px 0 #349cfb;
         transition: all 0.3s ease;
+        transform: translateY(1570px);
+        margin-left: 102px;
     }
 
     .btn_06:hover {
@@ -4407,7 +4413,7 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(2, 4fr);
         margin-left: 35px;
-        margin-top: 20px;
+        margin-top: 45px;
         gap: 2rem;
         margin-bottom: 2rem;
     }
