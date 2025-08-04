@@ -1769,13 +1769,13 @@ footer hr {
     }
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1115px) {
     .container {
-        width: 950px;
+        width: 1050px;
     }
 
     .bluediv {
-        width: 115rem;
+        width: 105rem;
     }
 
     .bluediv_items h3 {
@@ -1823,21 +1823,15 @@ footer hr {
         max-width: 100%;
     }
 
-    .bluedivv {
-        width: 115px;
-        height: 115px;
-        margin-left: 580px;
-        margin-top: 35rem;
-        border-radius: 70%;
-    }
-
     .bluediv_items button {
         padding: 12px 24px;
         font-size: 1.3rem;
         border-radius: .7rem;
         margin-top: 1.4rem;
     }
-
+    .navbar{
+        padding: 0 1rem;
+    }
     /*imkoniyatlar*/
     .flexbox2 {
         display: flex;
@@ -1869,7 +1863,194 @@ footer hr {
         font-size: 1.3rem;
         padding-top: 0.4rem;
     }
+    /*gridbox1*/
+    .gridbox1{
+        max-width: 1100px;
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    /*blackbox1*/
+    .blackbox1 {
+        width: 97%;
+        margin-left: 10px;
+        height: 400px;
+    }
+          /*thoughts*/
+          .thoughts {
+            width: 98%;
+            padding-left: 1rem;
+        }  
+        .blackbox2 .heading {
+            padding-top: 8rem;
+            font-size: 3.7rem;
+            margin-left: -5rem;
+        } 
+        .text {
+            font-size: 1.7rem;
+            line-height: 1.5;
+            margin-top: 2rem;
+            padding-left: 12px;
+            width: 1000px;
+        }
+           /*gridbox2*/
+     .gridbox2 {
+        width: 100%;
+        grid-template-columns: repeat(8,1fr);
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 1rem;
+    }
+       /*gridbox3*/
+       .gridbox3 {
+            width: 100%;
+            height: 390px;
+            margin-left: 1px;
+            transform: translateX(1px);
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 2fr);
+            gap: 2.5rem;
+            cursor: pointer;
+            margin-bottom: 80px;
+    }
+    .btn_06 {
+        padding: 15px 30px;
+        font-size: 1.7rem;
+        margin-top: 600px;
+        transform: translateY(2.5rem);
+        margin-left: 410px;
+    }
+    .gridbox3 img{
+        transform: translateX(50px);
+    }
+    .whitebox h1 {
+        margin-left: -9rem;
+        padding-top: 8rem;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .navbarcha ul{
+        margin-left: -100px;
+    }
+    .gridbox5 {
+        width: 93%;
+        height: 420px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 2rem;
+        gap: 2rem;
+        margin-left: -2.5rem;
+        margin-bottom: 10px;
+    }
+    .gridbox6 {
+        width: 93%;
+        height: 420px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 1rem;
+        gap: 2rem;
+        margin-left: -2.5rem;
+        margin-bottom: 5px;
+    }
+    .barchasini-korsatish {
+        transform: translateX(-50px);
+        font-size: 2rem;
+    }
+    .soha-topish {
+        width: 100%;
+        height: 450px;
+        margin-top: 5rem;
+        margin-left: -50px;
+    }
+    .soha-left h1 {
+        font-size: 4.5rem;
+        margin-left: 8rem;
+        margin-top: -110px;
+    }
+    .soha-right img {
+        margin-top: 173px;
+        transform: translateX(1px);
+    }
+    .ustozlar {
+        width: 100%;
+        padding-top: 40px;
+        margin-bottom: 50px;
+        margin-left: -50px;
+    }
+    .tajribali_ustozlar {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .ustozlar h1:last-child {
+        font-size: 4rem;
+        margin-left: 1rem;
+    }
 
+    .imgg {
+        padding-top: 2rem;
+        width: 100%;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(6, 2fr);
+        cursor: pointer;
+        margin-left: -4rem;
+        row-gap: 1.5rem;
+        transform: translateY(-30px);
+    }
+    .whitebox {
+        height: 60rem;
+    }
+    .blackbox3 {
+        width: 109%;
+        margin-left: -4.2rem;
+        height: 600px;
+    
+}
+.blackboxx {
+    width: 90%;
+    height: 340px;
+    border-radius: 18px;
+    background-color: #263039;
+    flex-wrap: wrap;
+    margin-left: -5rem;
+    margin-bottom: 10px;
+    display: flex;
+}
+.box3 {
+    width: 390px;
+    height: 480px;
+    margin-left: 173px;
+    margin-top: -260px;
+    padding: 1rem;
+}
+.blackbox3 hr{display: none;}
+footer {
+    height: 450px;
+    width: 109%;
+    margin-left: -42px;
+}
+     /*tulovlar*/
+     .tulovlar {
+        margin-left: 95px;
+        gap: 2rem;
+        margin-top: -50px;
+        width: 350px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .malumot{
+        display: none;
+    }
+    .div1{
+        width: 35%;
+    }
+    .div2{
+        width: 35%;
+    }
+    .overbox {
+        width: 80%;
+        transform: translateX(-20px);
+    }
 }
 @media only screen and (max-width:884px){
     .container{
@@ -1894,6 +2075,7 @@ footer hr {
         height: 440px;
         grid-template-columns: repeat(2, 1fr);
         padding-left: 5px;
+        margin-left: 3rem;
         margin-top: 60px;
     }
        /*blackbox1*/
@@ -2420,7 +2602,7 @@ footer hr {
             margin-left: 20px;
         }
         .tajribali_ustozlar {
-            margin-left: 17rem;
+            margin-left: 1rem;
         }
         .imgg {
             margin-left: 5rem;
@@ -2431,23 +2613,24 @@ footer hr {
         }
         .div1{
             width: 25%;
-            margin-left: 5rem;
+            margin-left: 8rem;
         }
         .div2{
             width: 70%;
         }
         
         .tulovlar{
-            margin-left: 50px;
+            margin-left: 80px;
         }
         .overbox {
             width: 700px;
+            transform: translateX(-45px);
         }
         .blackbox3 hr {
             display: none;
         }
     footer hr {
-        width: 80%;
+        width: 88%;
         margin-left: 80px;
     }
 }
@@ -2521,12 +2704,16 @@ footer hr {
     .gridbox1 {
         padding-left: 10px;
     }
+    .gridbox3{
+        max-width: 800px;
+        margin-left: -.6rem;
+    }
     .soha-right img {
         margin-top: -7px;
         transform: translateX(285px);
     }
     .tajribali_ustozlar {
-        margin-left: 15rem;
+        margin-left: -1rem;
     }
     .ustozlar {
         margin-left: 10px;
@@ -2555,7 +2742,7 @@ footer hr {
     }
 
     .container {
-        width: 765px;
+        width: 768px;
         margin-left: 1px;
     }
 
@@ -3036,7 +3223,7 @@ footer hr {
     }
 
     .blackbox3 {
-        width: 770px;
+        width: 800px;
         height: 1100px;
     }
 
@@ -3091,7 +3278,7 @@ footer hr {
 
     footer {
         height: 420px;
-        width: 780px;
+        width: 800px;
     }
 
     .hujjatlar {
@@ -3109,7 +3296,7 @@ footer hr {
         width: 300px;
         padding-top: 2rem;
     }
-
+    
     .logo2 {
         margin-left: 40px;
         padding-top: 4rem;
@@ -5186,12 +5373,11 @@ footer hr {
         font-weight: 600;
         margin-bottom: 4rem;
         display: block;
-        margin-left: -2rem;
     }
 
     .ustozlar__items {
         border: .5px solid rgb(231, 225, 225);
-        margin-left: -6.5rem;
+        margin-left: -7rem;
         width: 372px;
     }
 
@@ -5329,11 +5515,17 @@ footer hr {
         display: block;
         padding-left: 10px;
     }
-
+    .div1 {
+        width: 80%;
+        height: 400px;
+        margin-left: 65px;
+        display: block;
+    }
     .div2 {
-        width: 500px;
+        width: 20%;
         height: 400px;
         display: block;
+        margin-left: 15px;
     }
 
     .kompaniya {
@@ -5353,7 +5545,7 @@ footer hr {
     }
     /*tulovlar*/
     .tulovlar {
-        margin-left: 40px;
+        margin-left: 77px;
         gap: 2rem;
         margin-top: -30px;
         width: 385px;
@@ -5362,8 +5554,8 @@ footer hr {
     }
 
     footer hr {
-        width: 340px;
-        margin-left: 50px;
+        width: 300px;
+        margin-left: 120px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
@@ -5376,8 +5568,8 @@ footer hr {
     }
 
     .overbox {
-        width: 400px;
-        transform: translateX(-130px);
+        width: 428px;
+        transform: translateX(-92px);
     }
 
     .overbox div {
@@ -5517,7 +5709,7 @@ footer hr {
     }
 
     .btn_06 {
-        margin-left: 12rem;
+        margin-left: 11rem;
         width: 200px;
         border-radius: 1rem;
         border: none;
@@ -5527,7 +5719,7 @@ footer hr {
         font-weight: 600;
         box-shadow: 0 0 20px 0 #349cfb;
         transition: all 0.3s ease;
-        transform: translateY(1160px);
+        transform: translateY(1175px);
     }
 
     .btn_06:hover {
@@ -5664,7 +5856,7 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
         margin-left: 10px;
-        transform: translateX(10px);
+        transform: translateX(15px);
         margin-top: 0px;
     }
 
@@ -5729,14 +5921,16 @@ footer hr {
         font-size: 4rem;
         margin-left: -13rem;
     }
-
+    .blackbox2{
+        height:295rem;
+    }
     .text {
         font-size: 1.7em;
         line-height: 1.5;
         margin-top: 2rem;
         opacity: 0.7;
-        padding-left: 15px;
-        width: 430px;
+        padding-left: 33px;
+        width: 400px;
         text-align: justify;
     }
 
@@ -6028,9 +6222,11 @@ footer hr {
         display: block;
         padding-left: 10px;
     }
-
+    .div1 {
+        width: 60%;
+        margin-left: 65px;
+    }
     .div2 {
-        width: 500px;
         height: 400px;
         display: block;
     }
@@ -6052,7 +6248,7 @@ footer hr {
     }
     /*tulovlar*/
     .tulovlar {
-        margin-left: 40px;
+        margin-left: 70px;
         gap: 2rem;
         margin-top: -30px;
         width: 385px;
@@ -6062,7 +6258,7 @@ footer hr {
 
     footer hr {
         width: 340px;
-        margin-left: 50px;
+        margin-left: 90px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
@@ -6075,13 +6271,8 @@ footer hr {
     }
 
     .overbox {
-        width: 400px;
-        transform: translateX(-130px);
-    }
-
-    .overbox div {
-        width: 340px;
-        transform: translateX(10px);
+        width: 415px;
+        transform: translateX(-90px);
     }
 
     .hujjatlar {
@@ -6586,7 +6777,7 @@ footer hr {
         font-weight: 600;
         margin-bottom: 4rem;
         display: block;
-        margin-left: -5rem;
+        margin-left: -13rem;
     }
 
     .ustozlar__items {
@@ -6733,9 +6924,12 @@ footer hr {
         padding-left: 10px;
     }
 
+    .div1 {
+        width: 60%;
+        margin-left: 60px;
+    }
     .div2 {
-        width: 500px;
-        height: 400px;
+        margin-left: -20px;
         display: block;
     }
 
@@ -6757,7 +6951,7 @@ footer hr {
 
     /*tulovlar*/
     .tulovlar {
-        margin-left: 40px;
+        margin-left: 80px;
         gap: 2rem;
         margin-top: -50px;
         width: 350px;
@@ -6767,7 +6961,7 @@ footer hr {
 
     footer hr {
         width: 340px;
-        margin-left: 50px;
+        margin-left: 85px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
@@ -6780,13 +6974,8 @@ footer hr {
     }
 
     .overbox {
-        width: 400px;
-        transform: translateX(-130px);
-    }
-
-    .overbox div {
-        width: 340px;
-        transform: translateX(10px);
+        width: 393px;
+        transform: translateX(-90px);
     }
 
     .hujjatlar {
@@ -6890,7 +7079,7 @@ footer hr {
     .gridbox3 {
         width: 340px;
         height: 400px;
-        left: 10px;
+        left: 33px;
         position: relative;
         transform: translateY(240px);
         display: grid;
@@ -6944,7 +7133,7 @@ footer hr {
         box-shadow: 0 0 20px 0 #349cfb;
         transition: all 0.3s ease;
         transform: translateY(1155px);
-        margin-left: 102px;
+        margin-left: 95px;
     }
 
     .btn_06:hover {
@@ -7437,12 +7626,14 @@ footer hr {
         padding-left: 10px;
     }
 
+    .div1 {
+        width: 60%;
+        margin-left: 60px;
+    }
     .div2 {
-        width: 500px;
-        height: 400px;
+        margin-left: -20px;
         display: block;
     }
-
     .kompaniya {
         display: none;
     }
@@ -7461,7 +7652,7 @@ footer hr {
 
     /*tulovlar*/
     .tulovlar {
-        margin-left: 40px;
+        margin-left: 70px;
         gap: 2rem;
         margin-top: -50px;
         width: 350px;
@@ -7470,8 +7661,8 @@ footer hr {
     }
 
     footer hr {
-        width: 340px;
-        margin-left: 50px;
+        width: 320px;
+        margin-left: 80px;
         margin-top: 3rem;
         border: 1px solid #393f44;
     }
@@ -7484,9 +7675,10 @@ footer hr {
     }
 
     .overbox {
-        width: 400px;
-        transform: translateX(-130px);
+        width: 375px;
+        transform: translateX(-90px);
     }
+
 
     .overbox div {
         width: 340px;
@@ -7985,11 +8177,12 @@ footer hr {
     }
 
     .tajribali_ustozlar {
-        font-size: 3rem;
+        font-size: 2.7rem;
         font-weight: 600;
         margin-bottom: 4rem;
         display: block;
-        margin-left: -6rem;
+        width: 280px;
+        text-align: center;
     }
 
     .ustozlar__items {
@@ -8129,9 +8322,12 @@ footer hr {
         padding-left: 10px;
     }
 
+    .div1 {
+        width: 60%;
+        margin-left: 60px;
+    }
     .div2 {
-        width: 500px;
-        height: 400px;
+        margin-left: -20px;
         display: block;
     }
 
@@ -8153,7 +8349,7 @@ footer hr {
 
     /*tulovlar*/
     .tulovlar {
-        margin-left: 35px;
+        margin-left: 60px;
         gap: 2rem;
         margin-top: -50px;
         width: 350px;
@@ -8176,8 +8372,8 @@ footer hr {
     }
 
     .overbox {
-        width: 400px;
-        transform: translateX(-130px);
+        width: 385px;
+        transform: translateX(-90px);
     }
 
     .overbox div {
